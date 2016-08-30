@@ -5,7 +5,7 @@
 package com.java.performance.extern.concurrent;
 
 /**
- * Clinet 主要实现了获取FutureData，开启构造RealData的线程并在接受请求后
+ * Client 主要实现了获取FutureData，开启构造RealData的线程并在接受请求后
  * 快速返回FutureData
  * 
  * @author hujie
@@ -14,7 +14,9 @@ package com.java.performance.extern.concurrent;
 public class Client {
     
     public Data request(final String queryStr){
+        
         final FutureData future = new FutureData();
+        
         new Thread(){
             public void run(){
                 //RealData构造很慢
