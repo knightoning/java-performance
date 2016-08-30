@@ -8,6 +8,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
+ * Master-Worker 1~100 立方和
  * 
  * @author hujie
  * @version $Id: MasterWorkerTest.java, v 0.1 2016年8月24日 下午4:05:09 hujie Exp $
