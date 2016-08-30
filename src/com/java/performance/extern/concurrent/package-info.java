@@ -3,6 +3,8 @@
  * Copyright (c) 2011-2016 All Rights Reserved.
  */
 /**
+ * 1、Future
+ * 2、Master-Worker
  * 
  * @author hujie
  * @version $Id: package-info.java, v 0.1 2016年8月27日 下午2:28:53 hujie Exp $
