@@ -5,6 +5,8 @@
 package com.java.performance.extern.concurrent;
 
 /**
+ * 立方计算
+ * 子类
  * 
  * @author hujie
  * @version $Id: PlusWorker.java, v 0.1 2016年8月24日 下午4:02:41 hujie Exp $
